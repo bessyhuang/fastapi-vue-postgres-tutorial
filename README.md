@@ -13,6 +13,12 @@ Reference from https://testdriven.io/blog/developing-a-single-page-app-with-fast
   - Host: 8080
   - Container: 8080
 
+## Backend: Models and Migrations
+* `Tortoise`
+  - for our ORM (Object Relational Mapper)
+* `Aerich`
+  - for managing database migrations
+
 ## Installation
 1. [Node.js LTS version](https://nodejs.org/en/)
   - `16.17.0 LTS`
