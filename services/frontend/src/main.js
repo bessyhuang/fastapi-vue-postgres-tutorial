@@ -6,6 +6,9 @@ import router from './router'
 import 'bootstrap/dist/css/bootstrap.css';
 import axios from 'axios';
 
+// Add
+import store from './store';
+
 
 Vue.config.productionTip = false
 
@@ -16,5 +19,6 @@ axios.defaults.baseURL = 'http://localhost:8000/';  // the FastAPI backend
 
 new Vue({
   router,
+  store,
   render: h => h(App)
 }).$mount('#app')
